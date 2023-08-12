@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MemoVerse</string>
+    <string name="app_author">Mochammad Gymnastiar</string>
+    <string name="title_activity_main">My Notes</string>
+    <string name="title_about_fragment">About This Application</string>
+    <string name="title_profile_fragment">Profile</string>
+    <string name="title_notes_fragment">My Notes</string>
+    <string name="title_add_note_activity">Add New Note</string>
+    <string name="title_edit_note_activity">Edit Note</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_fragment_notes">Notes Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_fragment_profile">Profile Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_fragment_about">About Fragment</string>
+
+    <string name="heading_one">MemoVerse</string>
+    <string name="heading_two">Tujuan Aplikasi</string>
+    <string name="heading_three">Tools yang Digunakan</string>
+
+    <string name="desc_one">MemoVerse adalah aplikasi pencatatan harian yang memudahkan Anda merekam momen-momen berharga, pemikiran, perasaan, dan pencapaian harian. Dengan antarmuka intuitif dan tampilan menarik, Anda dapat dengan cepat menulis, menyimpan, dan merenungkan catatan-catatan pribadi Anda. Mulai mencatat dan mengikuti perkembangan diri Anda sekarang dengan MemoVerse!</string>
+    <string name="desc_two">Diharapkan aplikasi ini bisa memudahkan user untuk me-manage catatan mereka.</string>
+    <string name="desc_three">Aplikasi ini dibuat dengan menggunakan Firebase untuk autentikasi dan menyimpan data catatan.</string>
+
+    <string name="form_title_label">Title</string>
+    <string name="form_category_label">Kategori</string>
+    <string name="form_desc_label">Detail Catatan</string>
+
+    <string-array name="categories">
+        <item>Tugas Kuliah</item>
+        <item>Pertemuan</item>
+        <item>Pekerjaan Rumah</item>
+        <item>Lain- lain</item>
+    </string-array>
+</resources>

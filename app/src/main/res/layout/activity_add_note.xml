@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AddNoteActivity"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_title_label"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/form_add_title"
+        android:background="@drawable/custom_edit_text"
+        android:textSize="12sp"
+        android:hint="Judul Catatan"
+        android:inputType="text"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="25dp"
+        android:textColor="?attr/colorOnPrimary"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_category_label"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <Spinner
+        android:id="@+id/select_category"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_edit_text"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/form_desc_label"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/form_add_desc"
+        android:background="@drawable/custom_edit_text"
+        android:textSize="12sp"
+        android:hint="Detail Catatan"
+        android:inputType="textMultiLine"
+        android:gravity="top|start"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="25dp"
+        android:textColor="?attr/colorOnPrimary"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_button"
+        android:text="SUBMIT"
+        android:onClick="saveNote"
+        android:textSize="12sp"
+        android:backgroundTint="?attr/colorOnPrimary"
+        android:textColor="?attr/colorPrimary"
+        app:cornerRadius = "20dp" />
+
+</LinearLayout>

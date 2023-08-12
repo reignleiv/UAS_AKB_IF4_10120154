@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "366943918657",
+    "project_id": "pencatatan-app",
+    "storage_bucket": "pencatatan-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366943918657:android:4d2380038708c9610bc4c0",
+        "android_client_info": {
+          "package_name": "com.example.uas_akb_if4_10120154"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366943918657-pl7attcsfvco1s10goot066cg84vk46h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdUhy4cNofhkyF57dY-9UORDfiyW8BBNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366943918657-kk2eifndab289i0thp5407g13s8b0cqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
